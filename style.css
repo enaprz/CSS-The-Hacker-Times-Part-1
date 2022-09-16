@@ -34,7 +34,8 @@ a {
     border-radius: 5px;
     background-color: white;
     margin:auto;
-    padding:20px
+    padding:20px;
+    height:1000px;
 
 
 }
@@ -47,8 +48,19 @@ body{
 h2,  h4{ 
     font-family:Roboto Slab;
 }
-.more-articles{
-    display:inline-block;
-    height: auto;
-    width:auto;
+section {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+section > p {
+    text-align: justify;
+    margin:auto;
+    padding-left: 1em;
+    padding-right: 5em;
+    padding-top: 1em;
+}
+section > h4 {
+    text-align:center;
+    margin-left:1.5em;
 }
